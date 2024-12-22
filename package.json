@@ -1,0 +1,16 @@
+{
+    "name": "adventjs2024",
+    "version": "1.0.0",
+    "description": "¡Bienvenido a mi repositorio de soluciones para **[AdventJS](https://adventjs.dev/es/)**! 🚀 AdventJS es un calendario de adviento con retos diarios\r de programación en JavaScript para mejorar tus habilidades. En este repositorio encontrarás mis soluciones a los **24 retos**, organizados por día,\r dificultad y puntuación máxima.",
+    "main": "./",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/js": "^9.17.0",
+        "eslint": "^9.17.0",
+        "globals": "^15.14.0"
+    }
+}
