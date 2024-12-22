@@ -1,4 +1,5 @@
-/* DIFICULTAD: 🟡
+/*
+DIFICULTAD: 🟡
 Los elfos están jugando con un tren 🚂 mágico que transporta regalos. Este tren se mueve en un tablero representado por un array de strings.
 
 El tren está compuesto por una locomotora (@), seguida de sus vagones (o), y debe recoger frutas mágicas (*) que le sirve de combustible. El movimiento del tren sigue las siguientes reglas:
@@ -25,24 +26,47 @@ Con esta información, debes devolver una cadena de texto:
  */
 
 /**
- * SCORE:
+ * SCORE: ⭐⭐⭐⭐⭐
  * @param {string[]} board - Represent the train situation
  * @param {'U' | 'D' | 'R' | 'L' } mov - Movement direction
  * @returns {'none' | 'crash' | 'eat'}
  */
 function moveTrain(board, mov) {
     // Code here
-    return 'none';
+    const locomotiveRowIndex = board.findIndex(row => row.includes('@'));
+    const locomotiveCellIndex = board[locomotiveRowIndex]?.indexOf('@');
+
+    const moveAction = {
+        U: [-1, 0],
+        D: [1, 0],
+        R: [0, 1],
+        L: [0, -1]
+    };
+
+    const boardTarget = moveAction[mov];
+
+    const targetRow = board[locomotiveRowIndex + boardTarget[0]];
+    const targetCell = targetRow?.[locomotiveCellIndex + boardTarget[1]];
+
+    const result = {
+        '·': 'none',
+        '*': 'eat',
+        o: 'crash',
+        undefined: 'crash'
+    };
+
+    return result[targetCell];
 }
 
 // prettier-ignore
-const board = [
+/* const board = [
   '·····',
   '*····',
   '@····',
   'o····',
   'o····'
-]
+] */
+const board = ['·····', '*····', '@····', 'o····', 'o····'];
 
 console.log(moveTrain(board, 'U'));
 // ➞ 'eat'

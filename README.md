@@ -20,8 +20,8 @@ dificultad y puntuación máxima.
 | 6️⃣   | 🟡 Media   | ¿Regalo dentro de la caja?                | ⭐⭐⭐⭐⭐        | [Ver](./reto06.js) |
 | 7️⃣   | 🟡 Media   | El ataque del Grinch                      |                   | [Ver](./reto07.js) |
 | 8️⃣   | 🟢 Fácil   | La carrera de renos                       | ⭐⭐⭐⭐⭐        | [Ver](./reto08.js) |
-| 9️⃣   | 🟡 Media   | El tren mágico                            |                   | [Ver](./reto09.js) |
-| 🔟   | 🟡 Media   | El ensamblador élfico                     | ⭐⭐⭐⭐⭐        | [Ver](./reto10.js) |
+| 9️⃣   | 🟡 Media   | El tren mágico                            | ⭐⭐⭐⭐⭐        | [Ver](./reto09.js) |
+| 1️⃣0️⃣ | 🟡 Media   | El ensamblador élfico                     | ⭐⭐⭐⭐⭐        | [Ver](./reto10.js) |
 | 1️⃣1️⃣ | 🟢 Fácil   | Nombre de archivos codificados            | ⭐⭐⭐⭐⭐        | [Ver](./reto11.js) |
 | 1️⃣2️⃣ | 🟢 Fácil   | ¿Cuánto cuesta el árbol?                  | ⭐⭐⭐⭐⭐        | [Ver](./reto12.js) |
 | 1️⃣3️⃣ | 🔴 Difícil | ¿El robot está de vuelta?                 |                   | [Ver](./reto13.js) |
