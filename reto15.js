@@ -14,33 +14,35 @@ Los campos dejan a la derecha el espacio necesario para alinear la caja.
 */
 
 /**
+ * SCORE: ⭐⭐⭐⭐ but, personally, i prefer this solution to one shown it drawTable5, at the end of the file that gives me 5 stars
  * @param {Array<Object>} data
  * @returns {string}
  */
 function drawTable(data) {
-    const columnNames = Object.keys(data[0]); /* .map(name => name.charAt(0).toUpperCase() + name.slice(1)) */
-    let columnsMaxLengthInOrder = [];
+    const columnNames = Object.keys(data[0]);
+    const columnsMaxLengthInOrder = [];
 
     let horizontalLine = '';
     let headerLine = '';
-    let valuesLines = '';
+    const valuesLines = [];
     columnNames.forEach(columnName => {
         const maxLength = Math.max(columnName.length, ...data.map(item => item[columnName].toString().length));
         columnsMaxLengthInOrder.push(maxLength);
         columnName = columnName.charAt(0).toUpperCase() + columnName.slice(1);
-        horizontalLine += '+' + '-'.padEnd(maxLength + 2, '-');
-        headerLine += '| ' + columnName.padEnd(maxLength + 1, ' ');
+        horizontalLine += `+${'-'.padEnd(maxLength + 2, '-')}`;
+        headerLine += `| ${columnName.padEnd(maxLength + 1, ' ')}`;
     });
+    horizontalLine += '+';
+    headerLine += '|';
 
     data.forEach(dataItem => {
-        const row = columnNames.map((columnName, i) => dataItem[columnName].toString().padEnd(columnsMaxLengthInOrder[i], ' ')).join(' | ');
-        valuesLines += `| ${row} |\n`;
+        const row = columnNames
+            .map((columnName, i) => dataItem[columnName].toString().padEnd(columnsMaxLengthInOrder[i], ' '))
+            .join(' | ');
+        valuesLines.push(`| ${row} | `);
     });
 
-    horizontalLine += '+\n';
-    headerLine += '|\n';
-
-    return horizontalLine + headerLine + horizontalLine + valuesLines + horizontalLine.trim();
+    return [horizontalLine, headerLine, horizontalLine, ...valuesLines, horizontalLine].join('\n');
 }
 
 const result = drawTable([
@@ -174,11 +176,66 @@ function drawTable3(data) {
     });
 
     data.forEach(dataItem => {
-        const row = columnNames.map((columnName, i) => dataItem[columnName].toString().padEnd(columnsMaxLengthInOrder[i], ' ')).join(' | ');
+        const row = columnNames
+            .map((columnName, i) => dataItem[columnName].toString().padEnd(columnsMaxLengthInOrder[i], ' '))
+            .join(' | ');
         valuesLines += `| ${row} |\n`;
     });
     horizontalLine += '+\n';
     headerLine += '|\n';
 
     return horizontalLine + headerLine + horizontalLine + valuesLines + horizontalLine.trim();
+}
+
+//⭐⭐⭐⭐(Es el mismo que drawTable5 pero este me da 4 estrellas, por el formateo de prettier)
+function drawTable4(data) {
+    const headers = Object.keys(data[0]);
+    const maxLengths = headers.map(header =>
+        Math.max(header.length, ...data.map(dataItem => `${dataItem[header]}`.length))
+    );
+
+    const horizontalLine = `+${maxLengths.map(lenght => '-'.repeat(lenght + 2)).join('+')}+`;
+    const headerLine = `| ${headers
+        .map((header, i) => {
+            const headerFormatted = header.charAt(0).toUpperCase() + header.slice(1);
+            return headerFormatted.padEnd(maxLengths[i]);
+        })
+        .join(' | ')} |`;
+
+    const valuesLines = data.map(
+        dataItem => `| ${headers.map((header, i) => `${dataItem[header]}`.padEnd(maxLengths[i])).join(' | ')} |`
+    );
+
+    return [horizontalLine, headerLine, horizontalLine, ...valuesLines, horizontalLine].join('\n');
+}
+
+// ⭐⭐⭐⭐⭐
+// prettier-ignore
+function drawTable5(data) {
+  // Code here
+  const headers = Object.keys(data[0]);
+
+    const columnWidths = headers.map((header) =>
+        Math.max(header.length, ...data.map((row) => `${row[header]}`.length)),
+    );
+
+    const separator = `+${columnWidths
+        .map((width) => '-'.repeat(width + 2))
+        .join('+')}+`;
+
+    const headerRowFormatted = `| ${headers
+        .map((header, i) => {
+            const headerFormatted = header.charAt(0).toUpperCase() + header.slice(1);
+            return headerFormatted.padEnd(columnWidths[i]);
+        })
+        .join(' | ')} |`;
+
+    const rows = data.map(
+        (row) =>
+            `| ${headers
+                .map((key, i) => `${row[key]}`.padEnd(columnWidths[i]))
+                .join(' | ')} |`,
+    );
+
+    return [separator, headerRowFormatted, separator, ...rows, separator].join('\n',);
 }

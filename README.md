@@ -1,11 +1,12 @@
 # 🎄 AdventJS 2023 - Soluciones ⭐
 
-¡Bienvenido a mi repositorio de soluciones para **[AdventJS](https://adventjs.dev/es/)**! 🚀 **AdventJS** es un calendario de adviento con retos
-diarios de programación en **JavaScript** desarrollado por [@midudev](https://github.com/midudev). Durante 24 días de diciembre, se publican desafíos
-que ayudarán a mejorar habilidades en programación, a la vez que te retan con problemas prácticos de diferente dificultad.
+¡Bienvenido a mi repositorio de soluciones para **[AdventJS](https://adventjs.dev/es/)**! 🚀 **AdventJS** es un
+calendario de adviento con retos diarios de programación en **JavaScript** desarrollado por
+[@midudev](https://github.com/midudev). Durante 24 días de diciembre, se publican desafíos que ayudarán a mejorar
+habilidades en programación, a la vez que te retan con problemas prácticos de diferente dificultad.
 
-En este repositorio encontrarás mis soluciones a los **24 retos**, organizados por día, dificultad y puntuación máxima. Este calendario es una
-excelente manera de **aprender** y de **retarte** al desafiar tu lógica día a día.
+En este repositorio encontrarás mis soluciones a los **24 retos**, organizados por día, dificultad y puntuación máxima.
+Este calendario es una excelente manera de **aprender** y de **retarte** al desafiar tu lógica día a día.
 
 ¡Feliz programación y felices fiestas! 🎅🎁
 
@@ -31,7 +32,7 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 | 1️⃣2️⃣ | 🟢 Fácil   | ¿Cuánto cuesta el árbol?                  | ⭐⭐⭐⭐⭐        | [Ver](./reto12.js) |
 | 1️⃣3️⃣ | 🔴 Difícil | ¿El robot está de vuelta?                 |                   | [Ver](./reto13.js) |
 | 1️⃣4️⃣ | 🟢 Fácil   | Acomodando los renos                      | ⭐⭐⭐⭐⭐        | [Ver](./reto14.js) |
-| 1️⃣5️⃣ | 🟢 Fácil   | Dibujando tablas                          | ⭐⭐⭐⭐⬛        | [Ver](./reto15.js) |
+| 1️⃣5️⃣ | 🟢 Fácil   | Dibujando tablas                          | ⭐⭐⭐⭐⭐        | [Ver](./reto15.js) |
 | 1️⃣6️⃣ | 🟢 Fácil   | Limpiando la nieve del camino             | ⭐⭐⭐⭐⭐        | [Ver](./reto16.js) |
 | 1️⃣7️⃣ | 🟡 Media   | Busca las bombas del Grinch               | ⭐⭐⭐⭐⭐        | [Ver](./reto17.js) |
 | 1️⃣8️⃣ | 🔴 Difícil | La agenda mágica de Santa                 |                   | [Ver](./reto18.js) |
@@ -61,14 +62,16 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 
 ## 🌟 Aprendizaje y valor personal 🌟
 
-Participar en **AdventJS** me ha permitido validar mis conocimientos actuales en **JavaScript** y **TypeScript**, demostrando que soy capaz de
-resolver problemas complejos de manera eficiente. Aunque ya tenía una base sólida, los retos me han enseñado a optimizar mis soluciones y a pensar de
-manera más estratégica, buscando siempre la mejor forma de abordar cada problema.
+Participar en **AdventJS** me ha permitido validar mis conocimientos actuales en **JavaScript** y **TypeScript**,
+demostrando que soy capaz de resolver problemas complejos de manera eficiente. Aunque ya tenía una base sólida, los
+retos me han enseñado a optimizar mis soluciones y a pensar de manera más estratégica, buscando siempre la mejor forma
+de abordar cada problema.
 
-A través de los 24 desafíos, he mejorado mi capacidad de **pensamiento lógico** y **resolución de problemas**. Además, me he dado cuenta de la
-importancia de la **perseverancia** y de **aprender de cada experiencia**. Cada reto completado ha aumentado mi confianza y me ha demostrado que,
-aunque tengo las habilidades necesarias, siempre hay espacio para mejorar y optimizar.
+A través de los 24 desafíos, he mejorado mi capacidad de **pensamiento lógico** y **resolución de problemas**. Además,
+me he dado cuenta de la importancia de la **perseverancia** y de **aprender de cada experiencia**. Cada reto completado
+ha aumentado mi confianza y me ha demostrado que, aunque tengo las habilidades necesarias, siempre hay espacio para
+mejorar y optimizar.
 
-En resumen, **AdventJS** ha sido una excelente oportunidad para poner a prueba mis conocimientos, mientras continúo perfeccionando mi capacidad para
-encontrar soluciones más eficientes y estratégicas. Esta experiencia ha sido clave tanto para mi crecimiento profesional como personal, reforzando mi
-mentalidad de mejora continua.
+En resumen, **AdventJS** ha sido una excelente oportunidad para poner a prueba mis conocimientos, mientras continúo
+perfeccionando mi capacidad para encontrar soluciones más eficientes y estratégicas. Esta experiencia ha sido clave
+tanto para mi crecimiento profesional como personal, reforzando mi mentalidad de mejora continua.
