@@ -16,31 +16,32 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 
 ## 📜 Índice de Retos
 
-| Día  | Dificultad | Título                                    | Puntuación Máxima | Solución           |
-| ---- | ---------- | ----------------------------------------- | ----------------- | ------------------ |
-| 1️⃣   | 🟢 Fácil   | ¡Primer regalo repetido!                  | ⭐⭐⭐⭐⭐        | [Ver](./reto01.js) |
-| 2️⃣   | 🟢 Fácil   | Enmarcando nombres                        | ⭐⭐⭐⭐⭐        | [Ver](./reto02.js) |
-| 3️⃣   | 🟢 Fácil   | Organizando el inventario                 | ⭐⭐⭐⭐⭐        | [Ver](./reto03.js) |
-| 4️⃣   | 🟡 Media   | Decorando el árbol de Navidad             | ⭐⭐⭐⭐⭐        | [Ver](./reto04.js) |
-| 5️⃣   | 🟢 Fácil   | Emparejando botas                         | ⭐⭐⭐⭐⭐        | [Ver](./reto05.js) |
-| 6️⃣   | 🟡 Media   | ¿Regalo dentro de la caja?                | ⭐⭐⭐⭐⭐        | [Ver](./reto06.js) |
-| 7️⃣   | 🟡 Media   | El ataque del Grinch                      |                   | [Ver](./reto07.js) |
-| 8️⃣   | 🟢 Fácil   | La carrera de renos                       | ⭐⭐⭐⭐⭐        | [Ver](./reto08.js) |
-| 9️⃣   | 🟡 Media   | El tren mágico                            | ⭐⭐⭐⭐⭐        | [Ver](./reto09.js) |
-| 1️⃣0️⃣ | 🟡 Media   | El ensamblador élfico                     | ⭐⭐⭐⭐⭐        | [Ver](./reto10.js) |
-| 1️⃣1️⃣ | 🟢 Fácil   | Nombre de archivos codificados            | ⭐⭐⭐⭐⭐        | [Ver](./reto11.js) |
-| 1️⃣2️⃣ | 🟢 Fácil   | ¿Cuánto cuesta el árbol?                  | ⭐⭐⭐⭐⭐        | [Ver](./reto12.js) |
-| 1️⃣3️⃣ | 🔴 Difícil | ¿El robot está de vuelta?                 |                   | [Ver](./reto13.js) |
-| 1️⃣4️⃣ | 🟢 Fácil   | Acomodando los renos                      | ⭐⭐⭐⭐⭐        | [Ver](./reto14.js) |
-| 1️⃣5️⃣ | 🟢 Fácil   | Dibujando tablas                          | ⭐⭐⭐⭐⭐        | [Ver](./reto15.js) |
-| 1️⃣6️⃣ | 🟢 Fácil   | Limpiando la nieve del camino             | ⭐⭐⭐⭐⭐        | [Ver](./reto16.js) |
-| 1️⃣7️⃣ | 🟡 Media   | Busca las bombas del Grinch               | ⭐⭐⭐⭐⭐        | [Ver](./reto17.js) |
-| 1️⃣8️⃣ | 🔴 Difícil | La agenda mágica de Santa                 |                   | [Ver](./reto18.js) |
-| 1️⃣9️⃣ | 🔴 Difícil | Apila cajas mágicas para repartir regalos |                   | [Ver](./reto19.js) |
-| 2️⃣0️⃣ | 🟢 Fácil   | Encuentra regalos faltantes y duplicados  | ⭐⭐⭐⭐⭐        | [Ver](./reto20.js) |
-| 2️⃣1️⃣ | 🟢 Fácil   | Calcula la altura del árbol de Navidad    | ⭐⭐⭐⭐⭐        | [Ver](./reto21.js) |
-| 2️⃣2️⃣ | 🟡 Media   | Genera combinaciones de regalos           | ⭐⭐⭐⭐⭐        | [Ver](./reto22.js) |
-| 2️⃣3️⃣ | 🟢 Fácil   | Encuentra los números perdidos            | ⭐⭐⭐⭐⭐        | [Ver](./reto23.js) |
+| Día  | Dificultad | Título                                      | Puntuación Máxima | Solución           |
+| ---- | ---------- | ------------------------------------------- | ----------------- | ------------------ |
+| 1️⃣   | 🟢 Fácil   | ¡Primer regalo repetido!                    | ⭐⭐⭐⭐⭐        | [Ver](./reto01.js) |
+| 2️⃣   | 🟢 Fácil   | Enmarcando nombres                          | ⭐⭐⭐⭐⭐        | [Ver](./reto02.js) |
+| 3️⃣   | 🟢 Fácil   | Organizando el inventario                   | ⭐⭐⭐⭐⭐        | [Ver](./reto03.js) |
+| 4️⃣   | 🟡 Media   | Decorando el árbol de Navidad               | ⭐⭐⭐⭐⭐        | [Ver](./reto04.js) |
+| 5️⃣   | 🟢 Fácil   | Emparejando botas                           | ⭐⭐⭐⭐⭐        | [Ver](./reto05.js) |
+| 6️⃣   | 🟡 Media   | ¿Regalo dentro de la caja?                  | ⭐⭐⭐⭐⭐        | [Ver](./reto06.js) |
+| 7️⃣   | 🟡 Media   | El ataque del Grinch                        |                   | [Ver](./reto07.js) |
+| 8️⃣   | 🟢 Fácil   | La carrera de renos                         | ⭐⭐⭐⭐⭐        | [Ver](./reto08.js) |
+| 9️⃣   | 🟡 Media   | El tren mágico                              | ⭐⭐⭐⭐⭐        | [Ver](./reto09.js) |
+| 1️⃣0️⃣ | 🟡 Media   | El ensamblador élfico                       | ⭐⭐⭐⭐⭐        | [Ver](./reto10.js) |
+| 1️⃣1️⃣ | 🟢 Fácil   | Nombre de archivos codificados              | ⭐⭐⭐⭐⭐        | [Ver](./reto11.js) |
+| 1️⃣2️⃣ | 🟢 Fácil   | ¿Cuánto cuesta el árbol?                    | ⭐⭐⭐⭐⭐        | [Ver](./reto12.js) |
+| 1️⃣3️⃣ | 🔴 Difícil | ¿El robot está de vuelta?                   |                   | [Ver](./reto13.js) |
+| 1️⃣4️⃣ | 🟢 Fácil   | Acomodando los renos                        | ⭐⭐⭐⭐⭐        | [Ver](./reto14.js) |
+| 1️⃣5️⃣ | 🟢 Fácil   | Dibujando tablas                            | ⭐⭐⭐⭐⭐        | [Ver](./reto15.js) |
+| 1️⃣6️⃣ | 🟢 Fácil   | Limpiando la nieve del camino               | ⭐⭐⭐⭐⭐        | [Ver](./reto16.js) |
+| 1️⃣7️⃣ | 🟡 Media   | Busca las bombas del Grinch                 | ⭐⭐⭐⭐⭐        | [Ver](./reto17.js) |
+| 1️⃣8️⃣ | 🔴 Difícil | La agenda mágica de Santa                   |                   | [Ver](./reto18.js) |
+| 1️⃣9️⃣ | 🔴 Difícil | Apila cajas mágicas para repartir regalos   |                   | [Ver](./reto19.js) |
+| 2️⃣0️⃣ | 🟢 Fácil   | Encuentra regalos faltantes y duplicados    | ⭐⭐⭐⭐⭐        | [Ver](./reto20.js) |
+| 2️⃣1️⃣ | 🟢 Fácil   | Calcula la altura del árbol de Navidad      | ⭐⭐⭐⭐⭐        | [Ver](./reto21.js) |
+| 2️⃣2️⃣ | 🟡 Media   | Genera combinaciones de regalos             | ⭐⭐⭐⭐⭐        | [Ver](./reto22.js) |
+| 2️⃣3️⃣ | 🟢 Fácil   | Encuentra los números perdidos              | ⭐⭐⭐⭐⭐        | [Ver](./reto23.js) |
+| 2️⃣3️⃣ | 🟡 Media   | Verifica si los árboles son espejos mágicos | ⭐⭐⭐⭐⭐        | [Ver](./reto24.js) |
 
 ---
 
