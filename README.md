@@ -36,7 +36,7 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 | 1️⃣6️⃣ | 🟢 Fácil   | Limpiando la nieve del camino               | ⭐⭐⭐⭐⭐        | [Ver](./reto16.js) |
 | 1️⃣7️⃣ | 🟡 Media   | Busca las bombas del Grinch                 | ⭐⭐⭐⭐⭐        | [Ver](./reto17.js) |
 | 1️⃣8️⃣ | 🔴 Difícil | La agenda mágica de Santa                   |                   | [Ver](./reto18.js) |
-| 1️⃣9️⃣ | 🔴 Difícil | Apila cajas mágicas para repartir regalos   |                   | [Ver](./reto19.js) |
+| 1️⃣9️⃣ | 🔴 Difícil | Apila cajas mágicas para repartir regalos   | ⭐⭐⭐⭐⭐        | [Ver](./reto19.js) |
 | 2️⃣0️⃣ | 🟢 Fácil   | Encuentra regalos faltantes y duplicados    | ⭐⭐⭐⭐⭐        | [Ver](./reto20.js) |
 | 2️⃣1️⃣ | 🟢 Fácil   | Calcula la altura del árbol de Navidad      | ⭐⭐⭐⭐⭐        | [Ver](./reto21.js) |
 | 2️⃣2️⃣ | 🟡 Media   | Genera combinaciones de regalos             | ⭐⭐⭐⭐⭐        | [Ver](./reto22.js) |
@@ -56,7 +56,7 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 ## 📈 Estadísticas
 
 -   **Retos completados:** `21/24`
--   **Puntuación total acumulada:** `104/120 ⭐`
+-   **Puntuación total acumulada:** `109/120 ⭐`
 
 ---
 
