@@ -15,10 +15,10 @@ Para ayudar a Mrs. Claus, tu tarea es calcular el porcentaje completado de cada 
  */
 function getCompleted(timeWorked, totalTime) {
     // Code here
-    const timeWorkedArr = timeWorked.split(':').map(Number);
-    const secsWorked = timeWorkedArr[0] * 3600 + timeWorkedArr[1] * 60 + timeWorkedArr[2];
-    const totalTimeArr = totalTime.split(':').map(Number);
-    const secsTotal = totalTimeArr[0] * 3600 + totalTimeArr[1] * 60 + totalTimeArr[2];
+    const timeWorkedArr = timeWorked.split(':');
+    const secsWorked = timeWorkedArr[0] * 3600 + timeWorkedArr[1] * 60 + +timeWorkedArr[2];
+    const totalTimeArr = totalTime.split(':');
+    const secsTotal = totalTimeArr[0] * 3600 + totalTimeArr[1] * 60 + +totalTimeArr[2];
     return Math.round((secsWorked / secsTotal) * 100) + '%';
 }
 
