@@ -14,7 +14,7 @@ Los campos dejan a la derecha el espacio necesario para alinear la caja.
 */
 
 /**
- * SCORE: ⭐⭐⭐⭐ but, personally, i prefer this solution to one shown it drawTable5, at the end of the file that gives me 5 stars
+ * SCORE: ⭐⭐⭐⭐⭐
  * @param {Array<Object>} data
  * @returns {string}
  */
@@ -39,7 +39,7 @@ function drawTable(data) {
         const row = columnNames
             .map((columnName, i) => dataItem[columnName].toString().padEnd(columnsMaxLengthInOrder[i], ' '))
             .join(' | ');
-        valuesLines.push(`| ${row} | `);
+        valuesLines.push(`| ${row} |`);
     });
 
     return [horizontalLine, headerLine, horizontalLine, ...valuesLines, horizontalLine].join('\n');
