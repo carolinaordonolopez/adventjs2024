@@ -5,7 +5,7 @@ calendario de adviento con retos diarios de programación en **JavaScript** desa
 [@midudev](https://github.com/midudev). Durante 24 días de diciembre, se publican desafíos que ayudarán a mejorar
 habilidades en programación, a la vez que te retan con problemas prácticos de diferente dificultad.
 
-En este repositorio encontrarás mis soluciones a los **24 retos**, organizados por día, dificultad y puntuación máxima.
+En este repositorio encontrarás mis soluciones a los **26 retos**, organizados por día, dificultad y puntuación máxima.
 Este calendario es una excelente manera de **aprender** y de **retarte** al desafiar tu lógica día a día.
 
 ¡Feliz programación y felices fiestas! 🎅🎁
@@ -41,7 +41,9 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 | 2️⃣1️⃣ | 🟢 Fácil   | Calcula la altura del árbol de Navidad      | ⭐⭐⭐⭐⭐        | [Ver](./reto21.js) |
 | 2️⃣2️⃣ | 🟡 Media   | Genera combinaciones de regalos             | ⭐⭐⭐⭐⭐        | [Ver](./reto22.js) |
 | 2️⃣3️⃣ | 🟢 Fácil   | Encuentra los números perdidos              | ⭐⭐⭐⭐⭐        | [Ver](./reto23.js) |
-| 2️⃣3️⃣ | 🟡 Media   | Verifica si los árboles son espejos mágicos | ⭐⭐⭐⭐⭐        | [Ver](./reto24.js) |
+| 2️⃣4️⃣ | 🟡 Media   | Verifica si los árboles son espejos mágicos | ⭐⭐⭐⭐⭐        | [Ver](./reto24.js) |
+| 2️⃣5️⃣ | 🟡 Media   | El lenguaje mágico                          | ⭐⭐⭐⭐⭐        | [Ver](./reto25.js) |
+| 2️⃣6️⃣ | 🟢 Fácil   | Calcula el porcentaje completado            |                   | [Ver](./reto26.js) |
 
 ---
 
@@ -55,17 +57,16 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 
 ## 📈 Estadísticas
 
--   **Retos completados:** `21/24`
--   **Puntuación total acumulada:** `109/120 ⭐`
+-   **Retos completados:** `23/26`
+-   **Puntuación total acumulada:** `114/130 ⭐`
 
 ---
 
 ## 🌟 Aprendizaje y valor personal 🌟
 
-Participar en **AdventJS** me ha permitido validar mis conocimientos actuales en **JavaScript** y **TypeScript**,
-demostrando que soy capaz de resolver problemas complejos de manera eficiente. Aunque ya tenía una base sólida, los
-retos me han enseñado a optimizar mis soluciones y a pensar de manera más estratégica, buscando siempre la mejor forma
-de abordar cada problema.
+Participar en **AdventJS** me ha permitido validar mis conocimientos actuales en **JavaScript**, demostrando que soy
+capaz de resolver problemas complejos de manera eficiente. Aunque ya tenía una base sólida, los retos me han enseñado a
+optimizar mis soluciones y a pensar de manera más estratégica, buscando siempre la mejor forma de abordar cada problema.
 
 A través de los 24 desafíos, he mejorado mi capacidad de **pensamiento lógico** y **resolución de problemas**. Además,
 me he dado cuenta de la importancia de la **perseverancia** y de **aprender de cada experiencia**. Cada reto completado
