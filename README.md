@@ -43,7 +43,7 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 | 2️⃣3️⃣ | 🟢 Fácil   | Encuentra los números perdidos              | ⭐⭐⭐⭐⭐        | [Ver](./reto23.js) |
 | 2️⃣4️⃣ | 🟡 Media   | Verifica si los árboles son espejos mágicos | ⭐⭐⭐⭐⭐        | [Ver](./reto24.js) |
 | 2️⃣5️⃣ | 🟡 Media   | El lenguaje mágico                          | ⭐⭐⭐⭐⭐        | [Ver](./reto25.js) |
-| 2️⃣6️⃣ | 🟢 Fácil   | Calcula el porcentaje completado            |                   | [Ver](./reto26.js) |
+| 2️⃣6️⃣ | 🟢 Fácil   | Calcula el porcentaje completado            | ⭐⭐⭐⭐⭐        | [Ver](./reto26.js) |
 
 ---
 
@@ -57,8 +57,8 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 
 ## 📈 Estadísticas
 
--   **Retos completados:** `23/26`
--   **Puntuación total acumulada:** `114/130 ⭐`
+-   **Retos completados:** `24/26`
+-   **Puntuación total acumulada:** `119/130 ⭐`
 
 ---
 
