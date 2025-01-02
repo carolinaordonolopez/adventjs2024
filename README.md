@@ -30,7 +30,7 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 | 1️⃣0️⃣ | 🟡 Media   | El ensamblador élfico                       | ⭐⭐⭐⭐⭐        | [Ver](./reto10.js) |
 | 1️⃣1️⃣ | 🟢 Fácil   | Nombre de archivos codificados              | ⭐⭐⭐⭐⭐        | [Ver](./reto11.js) |
 | 1️⃣2️⃣ | 🟢 Fácil   | ¿Cuánto cuesta el árbol?                    | ⭐⭐⭐⭐⭐        | [Ver](./reto12.js) |
-| 1️⃣3️⃣ | 🔴 Difícil | ¿El robot está de vuelta?                   |                   | [Ver](./reto13.js) |
+| 1️⃣3️⃣ | 🔴 Difícil | ¿El robot está de vuelta?                   | ⭐⭐⭐⭐⭐        | [Ver](./reto13.js) |
 | 1️⃣4️⃣ | 🟢 Fácil   | Acomodando los renos                        | ⭐⭐⭐⭐⭐        | [Ver](./reto14.js) |
 | 1️⃣5️⃣ | 🟢 Fácil   | Dibujando tablas                            | ⭐⭐⭐⭐⭐        | [Ver](./reto15.js) |
 | 1️⃣6️⃣ | 🟢 Fácil   | Limpiando la nieve del camino               | ⭐⭐⭐⭐⭐        | [Ver](./reto16.js) |
@@ -57,8 +57,8 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 
 ## 📈 Estadísticas
 
--   **Retos completados:** `25/26`
--   **Puntuación total acumulada:** `124/130 ⭐`
+-   **Retos completados:** `26/26`
+-   **Puntuación total acumulada:** `129/130 ⭐`
 
 ---
 
