@@ -24,7 +24,7 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 | 4️⃣   | 🟡 Media   | Decorando el árbol de Navidad               | ⭐⭐⭐⭐⭐        | [Ver](./reto04.js) |
 | 5️⃣   | 🟢 Fácil   | Emparejando botas                           | ⭐⭐⭐⭐⭐        | [Ver](./reto05.js) |
 | 6️⃣   | 🟡 Media   | ¿Regalo dentro de la caja?                  | ⭐⭐⭐⭐⭐        | [Ver](./reto06.js) |
-| 7️⃣   | 🟡 Media   | El ataque del Grinch                        | ⭐⭐⭐⭐          | [Ver](./reto07.js) |
+| 7️⃣   | 🟡 Media   | El ataque del Grinch                        | ⭐⭐⭐⭐⭐        | [Ver](./reto07.js) |
 | 8️⃣   | 🟢 Fácil   | La carrera de renos                         | ⭐⭐⭐⭐⭐        | [Ver](./reto08.js) |
 | 9️⃣   | 🟡 Media   | El tren mágico                              | ⭐⭐⭐⭐⭐        | [Ver](./reto09.js) |
 | 1️⃣0️⃣ | 🟡 Media   | El ensamblador élfico                       | ⭐⭐⭐⭐⭐        | [Ver](./reto10.js) |
@@ -58,7 +58,9 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 ## 📈 Estadísticas
 
 -   **Retos completados:** `26/26`
--   **Puntuación total acumulada:** `129/130 ⭐`
+-   **Puntuación total acumulada:** `130/130 ⭐`
+
+![alt text](image.png)
 
 ---
 

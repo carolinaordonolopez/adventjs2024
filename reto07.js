@@ -12,7 +12,7 @@ Nos ha dejado algunos ejemplos:
  */
 
 /**
- * SCORE:
+ * SCORE: ⭐⭐⭐⭐⭐
  * @param {string} packages with parentheses
  *  @returns {string} Fixed and sorted packages
  */
@@ -21,19 +21,13 @@ function fixPackages(packages) {
     const firstClosedParenthesis = packages.indexOf(')');
     const lastOpenParenthesis = packages.slice(0, firstClosedParenthesis).lastIndexOf('(');
 
-    if (lastOpenParenthesis < 0) {
-        return packages;
-    }
-
     const inside = packages.slice(lastOpenParenthesis + 1, firstClosedParenthesis);
 
     const reversed = inside.split('').reverse().join('');
     const newString = packages.replace(`(${inside})`, reversed);
 
-    return fixPackages(newString);
+    return lastOpenParenthesis < 0 ? packages : fixPackages(newString);
 }
-
-console.log(fixPackages('(ab))cd('));
 
 const result = fixPackages('a(cb)de');
 console.log(result);
@@ -45,15 +39,17 @@ console.log(result2);
 // ➞ "agdefcbh"
 // 1º volteamos "def" → "fed", luego volteamos "bcfedg" → "gdefcb"
 
-// const result3 = fixPackages('abc(def(gh)i)jk');
-// console.log(result3);
+const result3 = fixPackages('abc(def(gh)i)jk');
+console.log(result3);
 // ➞ "abcighfedjk"
 // 1º volteamos "gh" → "hg", luego "defhgi" → "ighfed"
 
-// const result4 = fixPackages('a(b(c))e');
-// console.log(result4);
+const result4 = fixPackages('a(b(c))e');
+console.log(result4);
 // ➞ "acbe"
 // 1º volteamos "c" → "c", luego "bc" → "cb"
+
+console.log(fixPackages('(ab))cd('));
 
 // First attempt: ⭐⭐⭐⭐
 function fixPackages2(packages) {
