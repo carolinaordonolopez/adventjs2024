@@ -1,4 +1,4 @@
-# 🎄 AdventJS 2023 - Soluciones ⭐
+# 🎄 AdventJS 2024 - Soluciones ⭐
 
 ¡Bienvenido a mi repositorio de soluciones para **[AdventJS](https://adventjs.dev/es/)**! 🚀 **AdventJS** es un
 calendario de adviento con retos diarios de programación en **JavaScript** desarrollado por
@@ -60,9 +60,7 @@ Más información y retos en: **[AdventJS](https://adventjs.dev/es)**.
 -   **Retos completados:** `26/26`
 -   **Puntuación total acumulada:** `130/130 ⭐`
 
-![alt text](image.png)
-
----
+## ![alt text](image-1.png)
 
 ## 🌟 Aprendizaje y valor personal 🌟
 
