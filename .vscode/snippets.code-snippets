@@ -17,7 +17,7 @@
     // }
     "skeleton": {
         "scope": "javascript",
-        "prefix": "Inser skeleton",
+        "prefix": "Insert skeleton",
         "body": [
             "/*",
             " * ------------------------------------------------------------------",
