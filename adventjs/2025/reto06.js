@@ -3,7 +3,7 @@
  * 🎄 ADVENT JS 2025 - RETO #
  * 🏷️ Título:
  * 📊 Dificultad: 🟢 Fácil
- * 🌟 PUNTUACIÓN OBTENIDA: ⭐⭐⭐ (3/5)
+ * 🌟 PUNTUACIÓN OBTENIDA: ⭐⭐⭐⭐⭐ (5/5)
  * ------------------------------------------------------------------
  */
 
@@ -22,17 +22,29 @@
  * @returns {string[]} Colors of matched pairs
  */
 function matchGloves(gloves) {
-    const pairedGloves = [];
+    const pairs = [];
+    const leftGloves = {};
+    const rightGloves = {};
 
     for (const glove of gloves) {
-        const otherPairIndex = gloves.findIndex((g) => g.color === glove.color && g.hand !== glove.hand);
-        if (otherPairIndex > 0) {
-            gloves.splice(otherPairIndex, 1);
-            pairedGloves.push({ color: glove.color, atIndex: otherPairIndex });
+        const { hand, color } = glove;
+        if (hand === 'L') {
+            if (rightGloves[color] && rightGloves[color] > 0) {
+                pairs.push(color);
+                rightGloves[color]--;
+            } else {
+                leftGloves[color] = (leftGloves[color] || 0) + 1;
+            }
+        } else {
+            if (leftGloves[color] && leftGloves[color] > 0) {
+                pairs.push(color);
+                leftGloves[color]--;
+            } else {
+                rightGloves[color] = (rightGloves[color] || 0) + 1;
+            }
         }
     }
-
-    return pairedGloves.sort((a, b) => a.atIndex - b.atIndex).map((g) => g.color);
+    return pairs;
 }
 
 // ------------------
