@@ -1,6 +1,6 @@
 /*
  * ------------------------------------------------------------------
- * 🎄 ADVENT JS 2024 - RETO #01
+ * 🎄 ADVENT JS 2025 - RETO #01
  * 🏷️ Título: Filtrar los regalos defectuosos
  * 📊 Dificultad: 🟢 Fácil
  * 🌟 PUNTUACIÓN OBTENIDA: ⭐⭐⭐⭐⭐ (5/5)

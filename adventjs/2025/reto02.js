@@ -1,6 +1,6 @@
 /*
  * ------------------------------------------------------------------
- * 🎄 ADVENT JS 2024 - RETO #02
+ * 🎄 ADVENT JS 2025 - RETO #02
  * 🏷️ Título: Fabrica los juguetes
  * 📊 Dificultad: 🟢 Fácil
  * 🌟 PUNTUACIÓN OBTENIDA: ⭐⭐⭐⭐⭐ (5/5)
