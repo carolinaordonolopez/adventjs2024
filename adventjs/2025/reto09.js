@@ -59,7 +59,6 @@ function moveReno(board, moves) {
     for (const move of moves) {
         reindeerPosition = operateVectors(reindeerPosition, operations[move]);
 
-        // TODO: COMPROBAR QUE NO SE SALGA EL RENO BIEN
         if (
             reindeerPosition.some((v) => v == -1) ||
             reindeerPosition[0] > boardArr.length ||
