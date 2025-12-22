@@ -3,7 +3,7 @@
  * 🎄 ADVENT JS 2025 - RETO #11
  * 🏷️ Título: Regalos sin vigilancia
  * 📊 Dificultad: 🟢 Fácil
- * 🌟 PUNTUACIÓN OBTENIDA: ⭐⭐⭐⭐ (4/5)
+ * 🌟 PUNTUACIÓN OBTENIDA: ⭐⭐⭐⭐⭐ (5/5)
  * ------------------------------------------------------------------
  */
 
@@ -34,7 +34,7 @@ function findUnsafeGifts(warehouse) {
         const up = warehouse[i - 1]?.at(j);
         const down = warehouse[i + 1]?.at(j);
 
-        return left == '#' || right == '#' || up == '#' || down == '#' ? 0 : 1;
+        return left == '#' || right == '#' || up == '#' || down == '#';
     };
 
     for (let i = 0; i < warehouse.length; i++) {
@@ -42,7 +42,7 @@ function findUnsafeGifts(warehouse) {
         for (let j = 0; j < row.length; j++) {
             const letter = row[j];
             if (letter === '*') {
-                counter += hasCamera(i, j);
+                counter += !hasCamera(i, j);
             }
         }
     }
